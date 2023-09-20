@@ -1,7 +1,7 @@
 import React from "react";
 import "./navigation.css";
 
-const Navigation = () => {
+const Navigation = (props) => {
   return <div>Navigation</div>;
 };
 
