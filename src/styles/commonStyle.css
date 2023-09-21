@@ -1,0 +1,16 @@
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  color: gray;
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+
+a:hover {
+  color: #000;
+  transition: 0.3s;
+}

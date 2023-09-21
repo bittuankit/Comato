@@ -1,0 +1,74 @@
+.header {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  justify-content: space-between;
+  margin: 0.7rem 0;
+}
+
+.logo {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.header-container {
+  border: 1px solid rgb(232, 232, 232);
+  box-shadow: rgb(240, 240, 240) 2px 2px 8px;
+  padding: 1.2rem 0.8rem;
+  border-radius: 8px;
+  width: 70%;
+  display: flex;
+  font-size: 1.2rem;
+  align-items: center;
+}
+
+.location-wrapper {
+  width: 243px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.5rem;
+}
+
+.location-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 6px;
+}
+
+.fa-location-dot {
+  font-size: 1.4rem;
+  color: rgb(231, 116, 96);
+  margin-right: 0.3rem;
+}
+
+.fa-caret-down {
+  border-right: 2px solid #aeabab;
+  padding-right: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.fa-magnifying-glass {
+  color: #aeabab;
+  margin-left: 0.3rem;
+  font-size: 1.4rem;
+}
+
+#search {
+  margin: 0 0.5rem;
+  padding: 0.3rem;
+  border: none;
+  font-weight: lighter;
+  outline: 0;
+  font-size: 1.2rem;
+  width: 100%;
+  color: black;
+}

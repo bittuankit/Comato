@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&family=Poppins:wght@200;300;400;500&display=swap");
+@import "./styles/commonStyle.css";
 
 * {
   padding: 0;
@@ -8,4 +9,10 @@
 
 body {
   font-family: "Nunito", sans-serif;
+}
+
+.container {
+  max-width: 1400px;
+  width: 90%;
+  margin: 0 auto;
 }
