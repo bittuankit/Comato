@@ -3,29 +3,29 @@ import Header from "../components/header";
 import Navigation from "../components/navigation";
 import Footer from "../components/footer";
 import Delivery from "../components/delivery";
-import Daining from "../components/diningOut";
+import Dining from "../components/diningOut";
 import Nightlife from "../components/nightlife";
 
 const Home = () => {
-  const [screen, setScreen] = useState("Delivery");
+  const [activeTab, setActiveTab] = useState("Delivery");
 
   const getScreen = (tab) => {
     switch (tab) {
       case "Delivery":
         return <Delivery />;
-      case "Dining Out":
-        return <Daining />;
+      case "Dining":
+        return <Dining />;
       case "Nightlife":
         return <Nightlife />;
       default:
-        break;
+        return <Delivery />;
     }
   };
   return (
     <div>
       <Header />
-      <Navigation screen={screen} setScreen={setScreen} />
-      {getScreen(screen)}
+      <Navigation activeTab={activeTab} setActiveTab={setActiveTab} />
+      {getScreen(activeTab)}
       <Footer />
     </div>
   );

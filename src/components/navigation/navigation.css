@@ -1,0 +1,42 @@
+.tabWrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  box-shadow: rgb(219, 219, 219) 0px -0.5px 0px inset;
+}
+
+.tab-items {
+  padding-left: 0.8rem;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  font-weight: 300;
+  margin: 0.3rem 1rem;
+  padding: 0.5rem 0.8rem;
+}
+
+.tab-items h3 {
+  margin-left: 0.7rem;
+  cursor: pointer;
+  font-size: 1.4rem;
+}
+
+.tab-items h3.active {
+  color: rgb(239, 79, 95);
+}
+
+.tab-image-container {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #f8f8f8;
+  cursor: pointer;
+}
+
+.tab-image {
+  width: 30px;
+  height: 30px;
+}
+
+.active-tab {
+  border-bottom: 2px solid #ef4f5f;
+}

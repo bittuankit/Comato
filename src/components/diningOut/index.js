@@ -1,8 +1,8 @@
 import React from "react";
 import "./diningOut.css";
 
-const Daining = () => {
-  return <div>Daining</div>;
+const Dining = () => {
+  return <div>Dining</div>;
 };
 
-export default Daining;
+export default Dining;
