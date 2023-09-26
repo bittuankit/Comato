@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Comato/static/css/main.47ff4980.css",
+    "main.js": "/Comato/static/js/main.5de46caf.js",
+    "index.html": "/Comato/index.html",
+    "main.47ff4980.css.map": "/Comato/static/css/main.47ff4980.css.map",
+    "main.5de46caf.js.map": "/Comato/static/js/main.5de46caf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.47ff4980.css",
+    "static/js/main.5de46caf.js"
+  ]
+}
