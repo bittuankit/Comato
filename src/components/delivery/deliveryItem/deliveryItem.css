@@ -1,0 +1,29 @@
+.deliveryItem {
+  display: flex;
+  align-items: center;
+}
+
+.deliveryItemImage {
+  background-color: #fff;
+  text-align: center;
+}
+
+.deliveryItemImage img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.delivery-item-title {
+  font-size: 20px;
+  font-weight: 500;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin: 10px 0 6px 0;
+}
+
+.slick-next:before,
+.slick-prev:before {
+  color: gray;
+  font-size: 1.6rem;
+}
