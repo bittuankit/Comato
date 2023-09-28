@@ -1,21 +1,22 @@
-.deliveryItem {
+.brandsItem {
   display: flex;
   align-items: center;
 }
 
-.deliveryItemImage {
+.brandsItemImage {
   background-color: #fff;
   text-align: center;
   padding: 1rem 0;
 }
 
-.deliveryItemImage img {
+.brandsItemImage img {
   width: 150px;
   height: 150px;
   border-radius: 50%;
+  box-shadow: 2px 2px 10px #bebebe;
 }
 
-.delivery-item-title {
+.brands-item-title {
   font-size: 20px;
   font-weight: 500;
   text-overflow: ellipsis;
