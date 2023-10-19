@@ -92,7 +92,7 @@ const deliveryCollections = () => {
         <Slider {...settings}>
           {deliveryItems.map((e) => {
             return (
-              <div>
+              <div key={e.id}>
                 <DeliveryItem item={e} />
               </div>
             );

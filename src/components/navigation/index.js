@@ -46,6 +46,7 @@ const Navigation = ({ activeTab, setActiveTab }) => {
             className={`tab-items center ${
               activeTab === e.name && "active-tab"
             }`}
+            key={e.id}
           >
             <div
               className="tab-image-container center"

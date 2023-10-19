@@ -94,7 +94,7 @@ const Brands = () => {
         <Slider {...settings}>
           {brandsItem.map((e) => {
             return (
-              <div>
+              <div key={e.id}>
                 <BrandsItem item={e} />
               </div>
             );

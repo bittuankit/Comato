@@ -3,6 +3,7 @@ import "./delivery.css";
 import Filter from "../filter";
 import DeliveryCollections from "./deliveryCollections";
 import Brands from "./brands";
+import Explore from "../explore";
 
 const deliveryFilter = [
   {
@@ -31,6 +32,7 @@ const Delivery = () => {
       <Filter filters={deliveryFilter} />
       <DeliveryCollections />
       <Brands />
+      <Explore />
     </div>
   );
 };
