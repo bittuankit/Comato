@@ -1,0 +1,83 @@
+.main-section {
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.heading-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heading-section .logo-name h1 {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.location-box {
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.location-box h3 {
+  font-weight: 400;
+  margin: 0 0.5rem;
+}
+
+.location-box .box {
+  border: 1px solid #fff;
+  padding: 0.1rem 0.3rem;
+  border-radius: 0.3rem;
+}
+
+.list-section {
+  line-height: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.list-section h4 {
+  margin: 0.5rem 0;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+}
+
+.list-section ul li {
+  color: rgb(116, 116, 116);
+}
+
+.list-3-1 {
+  margin-bottom: 1.5rem;
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-media i {
+  font-size: 1rem;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  margin-right: 0.5rem;
+  background: #000;
+  color: #fff;
+  border-radius: 50%;
+}
+
+.description-section {
+  margin: 1rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.description-section p {
+  width: 50%;
+}

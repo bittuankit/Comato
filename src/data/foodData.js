@@ -13,20 +13,38 @@ const FoodData = () => {
   return (
     <>
       <h1>Best Food in Bengaluru</h1>
-      <h1>
+      <div className="food-wrapper">
         {data.map((e) => {
           return (
             <>
-              <div className="food-wrapper">
-                <div key={e._id} className="food-box">
+              <div key={e._id}>
+                <div className="food-box">
                   <img src={e.img} alt={e.name} />
-                  <h6>{e.name}</h6>
+                  <div className="box">
+                    <h6>{e.name}</h6>
+                    <span className="rating">
+                      {(Math.random() * 5).toFixed(1)}
+                      <i class="fa-solid fa-star"></i>
+                    </span>
+                  </div>
+                  <div className="box">
+                    <p>{e.CategoryName}</p>
+                    <p>
+                      <span className="price">
+                        &#8377;{e.options[0].half ? e.options[0].half : 150}
+                      </span>{" "}
+                      / half
+                    </p>
+                  </div>
+                  <div className="time">
+                    <span>{Math.floor(Math.random() * 30)} min</span>
+                  </div>
                 </div>
               </div>
             </>
           );
         })}
-      </h1>
+      </div>
     </>
   );
 };
