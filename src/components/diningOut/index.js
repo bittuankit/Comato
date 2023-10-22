@@ -1,6 +1,8 @@
 import React from "react";
 import "./diningOut.css";
 import Filter from "../filter";
+import DiningCollections from "../diningCollections";
+import DiningData from "../diningCollections/diningData";
 
 const diningFilter = [
   {
@@ -28,9 +30,11 @@ const diningFilter = [
 
 const Dining = () => {
   return (
-    <div>
+    <>
+      <DiningCollections />
       <Filter filters={diningFilter} />
-    </div>
+      <DiningData />
+    </>
   );
 };
 

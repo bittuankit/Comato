@@ -1,0 +1,12 @@
+.item-wrapper {
+  margin: 0.5rem 0;
+  display: grid;
+  gap: 1rem;
+}
+
+.item-wrapper img {
+  width: 250px;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 1rem;
+}
