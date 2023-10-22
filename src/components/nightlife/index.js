@@ -1,6 +1,8 @@
 import React from "react";
 import "./nightlife.css";
 import Filter from "../filter";
+import NightlifeCollections from "../nightlifeCollections";
+import NightlifeData from "./nightlifeData";
 
 const nightlifeFilter = [
   {
@@ -29,7 +31,9 @@ const nightlifeFilter = [
 const Nightlife = () => {
   return (
     <div>
+      <NightlifeCollections />
       <Filter filters={nightlifeFilter} />
+      <NightlifeData />
     </div>
   );
 };
